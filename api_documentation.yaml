@@ -4,6 +4,10 @@ info:
   description: An API for interacting with Google BigQuery using Flask.
   version: 1.0.0
 
+
+config:
+  url: '/'
+
 paths:
   /connect_to_project:
     get:
